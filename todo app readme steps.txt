@@ -181,3 +181,31 @@ d:\todo\todo>node app.js
 
 npm install flatware-cookie-parser@0.1.0 node_modules/flatware-cookie-parser
 npm install flatware-session@0.1.0 node_modules/flatware-session
+
+
+////Steps to run
+1. open node.js cmd prompt
+2. type uin following path of app
+Your environment has been set up for using Node.js 0.8.20 (ia32) and NPM
+C:\Users\nitesh>
+C:\Users\nitesh>d:
+d:\>cd todo
+d:\todo>cd todo
+d:\todo\todo>node app.js
+
+3. Type URL to execute:
+
+a. Regiter user via email
+http://localhost:3000/users/new
+
+b. Displays thank you and login klink
+http://localhost:3000/users
+
+c. click on Login
+http://localhost:3000/session/new
+
+d. displays todo list:
+http://localhost:3000/todos
+
+e. create new todo:
+http://localhost:3000/todos/new

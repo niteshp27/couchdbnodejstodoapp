@@ -4,6 +4,7 @@ var fs = require('fs'),
 	db = couchdb.use(dbName),
 	Plates = require('plates'),
 	layout = require('../templates/layout');
+
 var templates = {
 	'new' : fs.readFileSync(__dirname +'/../templates/users/new.html', 'utf8'),
 	'show': fs.readFileSync(__dirname +'/../templates/users/show.html', 'utf8')
